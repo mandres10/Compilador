@@ -1,11 +1,15 @@
 package AccionesSemanticas;
 
-public class as_Error extends AccionSemantica {
+
+import Compilador.AnalizadorLexico;
+
+public class as_FinComentario extends AccionSemantica {
 
 	@Override
 	public int execute(StringBuffer buffer, char c) {
-		// TODO Auto-generated method stub
-		return -4; //Caracter invalido
+		buffer = new StringBuffer();
+		AnalizadorLexico.limpiarBuffer();
+		return 0;
 	}
 
 	@Override
@@ -13,5 +17,5 @@ public class as_Error extends AccionSemantica {
 		// TODO Auto-generated method stub
 		return false;
 	}
-	
+
 }

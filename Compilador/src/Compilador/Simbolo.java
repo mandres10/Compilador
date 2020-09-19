@@ -7,8 +7,6 @@ public class Simbolo {
 	public String uso="";
 	public int cant_ref; 
 	
-	
-
 	public Simbolo(String valor) {
 		this.valor=valor;
 	}

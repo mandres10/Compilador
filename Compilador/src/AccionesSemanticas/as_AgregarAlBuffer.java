@@ -1,6 +1,6 @@
 package AccionesSemanticas;
 
-public class as_AgregarAlBuffer extends AccionSemantica {
+public class  as_AgregarAlBuffer extends AccionSemantica {
 
 	@Override
 	public int execute(StringBuffer buffer, char c) {
